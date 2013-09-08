@@ -1,6 +1,6 @@
 {
   "name": "express-method-override",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Override the method of a request based on a the X-HTTP-Method-Override header or custom query/post parameter.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,12 @@
     "connect"
   ],
   "author": "James Hight",
-  "license": "Apache 2",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/JamesHight/node-express-method-override/blob/master/LICENSE"
+    }
+  ],
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/JameHight/node-express-method-override/issues"
